@@ -5,64 +5,83 @@
     <style>
         body{
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f9fafc;
             margin: 0;
             padding: 0;
-            color: #333;
+            
         }
         header{
-            background-color: #c2185b;
-            color: white;
+            background-color: #b71c1c;
+            color: #fff;
             text-align: center;
-            padding: 20px 0;
-            font-family: system-ui;
-            font-size: larger;
+            padding: 24px 0;
         }
         h1{
             margin: 0;
-        }
-        .container{
-            width: 800px;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2{
-            text-align: center;
-            color: #cc1961;
+            font-size: 32px;
         }
         p{
-            text-align: center;
-            font-size: 15px;
+            font-size: 16px;
+            margin-top: 8px;
+        }
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 32px;
+        }
+        .contact-info{
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin: 1rem;
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+         }
+         .contact-info h2{
+            color: #b71c1c;
+         }
+        .contact-info p{
+            margin: 8px 0;
+        }
+        
+        .contact-form{
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin: 1rem;
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+        }
+        .contact-form h2{
+            color:#b71c1c;
+            margin: 16px;
+        }
+        .contact-form p{
+            margin: 1.5rem 0;
         }
         form{
             display: flex;
             flex-direction: column;
-            margin: 15px;
-            padding: 25px;
-        }
-        label{
-            font-weight: bold;
-        }
-        button{
-            background-color: #c2185b;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 15px;
-            cursor:pointer;
-            border-radius: 10px;
-        }
-        button:hover{
-            background-color: #d81b60;
-        }
-        .contact-info{
-            margin-top: 40px;
-            font-size: 18px;
-            text-align: center;
-        }
+            gap: 15px;
 
+        }
+        .contact-form button{
+            background-color: #b71c1c;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .contact-form button:hover{
+            background-color: #8e0f0f;
+        }
     </style>
 </head>
 <body>
@@ -73,37 +92,33 @@
       <main>
         <section class="contact-info">
             <h2>Contact Information</h2>
-            <p>Address:-123 Health Street,City Country</p>
-            <p>Phone:-+91 9356443919</p>
-            <p>Email:-contact@bloodbank.org</p>
-            <p>working Hours:- 24 Hours</p>
+            <p><B>Address</B>:-123 Health Street,City Country</p>
+            <p><B>Phone</B>:-+91 9356443919</p>
+            <p><B>Email</B>:-contact@bloodbank.org</p>
+            <p><B>Working Hours</B>:- 24 Hours</p>
         </section>
         <section class="contact-form">
             <h2>Get in Touch</h2>
-
-        </section>
-    <form>
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" required size="40"><Br></Br>
-    
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required size="40"><Br></Br>
-    
-          <label for="phone">Phone Number:</label>
-          <input type="text" id="phone" name="phone" required size="40"><Br></Br>
-    
-          <label for="message">Message:</label>
-          <input type="text" id="message" name="message" required size="40" height="100px"><Br></Br>
-    
-          <button type="submit">Submit</button>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+      
+            <button type="submit">Submit</button>
+      
      </form>
-     <div class="contact-info">
-        <h2>contact us</h2>
-        <p>Address: 123 Red Cross Street,Near City Hospital,Mumbai</p>
-        <p>Phone: +91 9356443919</p>
+     </main>
+    </section>
 
-     </div>
-      </div>
+
     
 </body>
 </html>
