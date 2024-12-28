@@ -6,7 +6,7 @@ body{
     
 }
 header{
-    background-color: #b71c1c;
+    background-color:#880808;
     color: #fff;
     text-align: center;
     padding: 24px 0;
@@ -36,7 +36,7 @@ main{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
  }
  .contact-info h2{
-    color: #b71c1c;
+    color: #880808;
  }
 .contact-info p{
     margin: 8px 0;
@@ -53,7 +53,7 @@ main{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 .contact-form h2{
-    color:#b71c1c;
+    color:#880808;
     margin: 16px;
     font-size: 25px;
 }
@@ -65,7 +65,7 @@ form{
 
 }
 .contact-form button{
-    background-color: #b71c1c;
+    background-color: #880808;
     color: #fff;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -74,5 +74,5 @@ form{
     font-size: 18px;
 }
 .contact-form button:hover{
-    background-color: #8e0f0f;
+    background-color: #810b0b;
 }
