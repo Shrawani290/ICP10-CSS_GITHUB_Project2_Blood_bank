@@ -29,8 +29,8 @@ main{
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    padding: 1.5rem;
-    margin: 1rem;
+    padding: 24px;
+    margin: 16px;
     width: 500px;
     height: 400px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -46,8 +46,8 @@ main{
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    padding: 24px;
-    margin: 16px;
+    padding: 40px;
+    margin: 30px;
     width: 500px;
     height: 400px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
