@@ -32,7 +32,7 @@ main{
     padding: 24px;
     margin: 16px;
     width: 500px;
-    height: 400px;
+    height: 550px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
  }
  .contact-info h2{
@@ -49,7 +49,7 @@ main{
     padding: 24px;
     margin: 16px;
     width: 500px;
-    height: 400px;
+    height: 550px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 .contact-form h2{
@@ -61,18 +61,40 @@ main{
 form{
     display: flex;
     flex-direction: column;
+    font-size: 16px;
 }
 label{
     margin-bottom: 10px;
+    
 }
-.contact-form button{
-    background-color: #880808;
+input[type=text]{
+    height: 18px;
+    width: 400pxpx;
+    padding: 10px;
+    font-family: 15px;
+}
+input[type=email]{
+height: 18px;
+width: 400pxpx;
+padding: 10px;
+font-family: 15px;
+}
+input[type=tel]
+{
+height: 18px;
+width: 400pxpx;
+padding: 10px;
+font-family: 15px;
+}
+input[type=submit]{
+    background-color: #810b0b;
     color: #fff;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
+    box-shadow: #e0e0e0;
 }
 .contact-form button:hover{
     background-color: #810b0b;
