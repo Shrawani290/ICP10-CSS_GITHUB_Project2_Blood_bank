@@ -24,14 +24,14 @@ a:hover{
 .container{
     height: 460px;
     width: 800px;
-    background-color:rgb(251, 247, 247);
+    background-color:rgb(224, 83, 104);
     text-align: center;
     margin-left: 350px;
     border: rgb(239, 175, 175) solid;
     border-radius: 40px;
          }
     
-input, select {
+input ,select {
         
         height: 25px;
         width: 170px; 
@@ -39,42 +39,45 @@ input, select {
         border-radius: 5px; 
         
              }
+
+  input:hover {
+    background-color: #cfb9b9;
+  }
+
+
 h5{
     margin-left:50px;
     }
 h2{
     text-align: center;
-    color: red;
-    background-color: black;
+    color: rgb(232, 216, 216);
+    background-color: rgb(27, 23, 23);
     border-radius: 5px;
     }
   
     
-img{
-    max-width: 60px;
-    background-color:#fff2e6;
-    border-radius: 5px;
-    }
  span{
  margin-right:230px;
     
 }
 li{
-    
-    background-color:red;
+    text-align: center;
+    background-color:#cfb9b9
+    padding:20px;
 
 }
 .btn {
-    background-color: red;
-    color: rgb(27, 25, 25);
+    background-color: rgb(216, 156, 156);
+    color: rgb(25, 24, 24);
     border: 2px solid dashed;
     border-radius: 10px;
     height: 30px;
     width: 170px;
      }
+     
 .btn:hover {
-    background-color: rgb(241, 145, 81);
-    color: black;
+    background-color: rgb(48, 45, 45);
+    color: rgb(243, 235, 235);
            }
     
 =======
