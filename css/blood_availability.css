@@ -24,15 +24,19 @@
    justify-content: center;
    align-items: center;
  }
+   .h{
+    color:red;
+   }
+
  .box {
-   color: whitesmoke;
+   color: black;
    width: 1400px;
    height: 800;
    padding: 10px;
    margin: 10px;
    border-radius: 40px;
-   background-color: #e57373 ;
-   border: 5px solid wheat;
+   background-color: #ffe6f0;
+   border: 3px solid #b30047;
    font-size: 20px;
    padding: auto;
    margin: auto;
@@ -40,15 +44,15 @@
 
  .btn1 {
    color:white;
-   background-color: #0086b3 ;
-   font-size: 30px;
-   padding: 10px;
-   margin:  10px;
+   background-color: #b30047;
+   font-size: 25px;
+   padding: 5px;
+   margin:  5px;
    border: double 10px white;
    border-radius:500px  500px 500px 500px;
-   font: 40px;
-   height: 10px center;
-   width: 800px;
+   font: 10px;
+   height: 80px;
+   width: 600px;
  }
  .item {
    color: black;
@@ -61,16 +65,16 @@
    padding: 10px;
    margin: 10px;
    border-radius: 10px;
-   border: solid 2px #006280;
+   border: solid 3px #b30047 ;
  }
  .container {
-   height: 600px;
+   height: 550px;
    width: 1400px;
    display: flex;
-   background-color:#e6f9ff   ;
+   background-color:#ffe6f0;
    padding: 5px;
    border-radius: 30px;
-   border:   solid #006280 ;
+   border:  none;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -79,15 +83,15 @@
  }
  .btn2 {
    color:white;
-   background-color: #b30047  ;
-   font-size: 30px;
-   padding: 10px;
-   margin:  10px;
+   background-color: #b30047;
+   font-size: 25px;
+   padding: 5px;
+   margin:  5px;
    border: double 10px white;
    border-radius:500px  500px 500px 500px;
-   font: 40px;
-   height: 10px center;
-   width: 800px;
+   font: 10px;
+   height: 80px;
+   width: 600px;
  }
  .item1 {
    color: black;
@@ -100,16 +104,16 @@
    padding: 10px;
    margin: 10px;
    border-radius: 20px;
-   border: solid 2px #b30047;
+   border: 3px solid #b30047;
  }
  .container1 {
-   height: 1000px;
+   height: 900px;
    width: 1400px;
    display: flex;
    background-color:#ffe6f0   ;
    padding: 5px;
    border-radius: 50px;
-   border: solid 4px #b30047;
+   border: none;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -118,15 +122,15 @@
  }
  .btn3{
    color:white;
-   background-color:#0086b3 ;
-   font-size: 30px;
-   padding: 10px;
-   margin:  10px;
+   background-color:#b30047 ;
+   font-size: 25px;
+   padding: 5px;
+   margin:  5px;
    border: double 10px white;
    border-radius:500px  500px 500px 500px;
-   font: 40px;
-   height: 10px center;
-   width: 800px;
+   font: 10px;
+   height: 80px;
+   width: 600px;
  }
 .item2{
  color: black;
@@ -139,16 +143,16 @@
  padding: 10px;
  margin: 10px;
  border-radius: 10px;
- border: solid 2px #006280;
+ border: solid 3px #b30047;
 }
 .container2 {
- height: 600px;
+ height:600px;
  width: 1400px;
  display: flex;
- background-color:#e6f9ff;
+ background-color:#ffe6f0;
  padding: 5px;
  border-radius: 30px;
- border:   solid #006280 ;
+ border:   none;
  display: flex;
  flex-direction: row;
  justify-content: center;
@@ -159,13 +163,13 @@
  color:white;
  background-color: #b30047  ;
  font-size: 40px;
- padding: 50px;
- margin:  50px;
+ padding: 20px ;
+ margin:  20px ;
  border: double 10px white;
  border-radius:500px  500px 500px 500px;
  font: 40px;
- height: 100px center ;
- width: 800px;
+ height: 80px center ;
+ width: 600px;
 }
 .item3{
 color: black;
@@ -177,14 +181,14 @@ font-size: 35px center;
 font: 25px center;
 padding: 20px;
 border-radius: 20px;
-border: solid 2px #b30047 ;
+border: solid 3px #b30047 ;
 }
 .container3 {
 height: 700px ;
 width: 1200px ;
 display: flex  ;
 background-color:#ffe6f0   ;
-border: solid 4px #b30047;
+border: none;
 padding: 5px;
 margin: 5px;
 border-radius: 30px;
@@ -193,16 +197,20 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 }
+.h1 {
+  color: #b30047;
+  background-color: #ffe6f0;
+}
 .box1 {
   color:black ;
   width: 1400px;
   height: 10000;
   padding: 10px;
   margin: 10px;
-  border-radius: 40px;
-  background-color: wheat;
-  border: 5px solid #e57373;
-  font-size: 20px;
+  border-radius: 30px;
+  background-color: #ffe6f0;
+  border: 3px solid #b30047;
+  font-size: 18px;
 }
 .box2 {
   color:black ;
@@ -210,10 +218,10 @@ flex-wrap: wrap;
   height: 10000;
   padding: 10px;
   margin: 10px;
-  border-radius: 40px;
-  background-color: #e57373;
-  border: 5px solid wheat;
-  font-size: 20px;
+  border-radius: 30px;
+  background-color: #ffe6f0;
+  border: 3px solid #b30047;
+  font-size: 18px;
 }
 .box3 {
   color:black ;
@@ -221,10 +229,10 @@ flex-wrap: wrap;
   height: 10000;
   padding: 10px;
   margin: 10px;
-  border-radius: 40px;
-  background-color: wheat;
-  border: 5px solid #e57373;
-  font-size: 20px;
+  border-radius: 30px;
+  background-color: #ffe6f0;
+  border: 3px solid #b30047;
+  font-size: 18px;
 }
 .heading {
 color: black;
