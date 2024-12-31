@@ -191,3 +191,14 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 }
+.box1 {
+  color:black ;
+  width: 1400px;
+  height: 10000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 40px;
+  background-color: wheat;
+  border: 3px solid #e57373;
+  font-size: 20px;
+}
