@@ -2,87 +2,64 @@
 <html lang="en">
 <head>
     <title>Contact Page</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header{
-            background-color: #c2185b;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            font-family: system-ui;
-            font-size: larger;
-        }
-        h1{
-            margin: 0;
-        }
-        .container{
-            width: 800px;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2{
-            text-align: center;
-            color: #cc1961;
-        }
-        p{
-            text-align: center;
-            font-size: 15px;
-        }
-        form{
-            display: flex;
-            flex-direction: column;
-            margin: 15px;
-            padding: 25px;
-        }
-        label{
-            font-weight: bold;
-        }
-        button{
-            background-color: #c2185b;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 15px;
-            cursor:pointer;
-            border-radius: 5px;
-        }
-        button:hover{
-            background-color: #d81b60;
-        }
-    </style>
+    <link rel="stylesheet" href="./../css/contact.css">
+  
 </head>
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./../img/blood_bank.png" height="30px"/>
+        </div>
+        <div class="navitem">
+           <a href="./../index.html"><img class="logo" src="./../logo.png/home.png"  height="35px">Home</a> 
+           <a href="./../pages/register.html"><img class="logo" src="./../logo.png/add.png" height="30px">Register</a>
+           <a href="./../pages/contact.html"> <img class="logo" src="./../logo.png/customer_service.png" height="30px">Contact</a>
+           <a href="./../pages/about.html"> <img  class="logo" src="./../logo.png/about_button.png"
+            height="30px">About</a>
+            <a href="./../pages/feedback.html"><img class="logo" src="./../logo.png/feedback.png" height="30px">Feedback</a>
+        </div>
+       
+
+    </div>
+    <div class="subnavbar">
+        <div class="navsubitem">
+            <a href="./../pages/blood_availability.html"><img class="logo" src="./../logo.png/avaliblity.png" height="30px">Blood Availability</a>
+            <a href="./../pages/camp.html"><img class="logo" src="./../logo.png/camp.png" height="30px">Camp</a>
+            <a href="./../pages/bloodbank_location.html"><img class="logo" src="./../logo.png/location.png" height="30px">Location</a>
+            <a href="./../pages/donate_blood.html"><img class="logo" src="./../logo.png/donate.png" height="30px">Donate</a>
+            <a href="./../pages/blood_chart.html"><img class="logo" src="./../logo.png/chart.png" height="30px">Chart</a>
+        </div>
+
+    </div>
     <header>
-        <h1>Contact Us</h1>
+        <h1>Contact Our Blood Bank</h1>
+        <p>We're here to save lives,one drop at a time.</p>
       </header>
+      <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><B>Address</B>:-123 Health Street,City Country</p>
+            <p><B>Phone</B>:<a href="tel:+91 9356443919"> + 91 9356443919</a><p>
+            <p><B>Email</B>:-<a href="mailto:contactbloodbank1@gmail.com"> contactbloodbank1@gmail.com</a></p>
+            <p><B>Working Hours</B>:- 24 Hours</p>
+        </section>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name"><B>Name</B></label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><Br>
+                <label for="email"><B>Email</B></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><Br>
+                <label for="Phone"><B>Phone</B></label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><Br>
+                <label for="message"><B>Message</B></label>
+                <input type="text" id="message" name="message" placeholder="Enter your message"><Br>
     
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <p>If you have any questions or would like to donate blood, please fill out the form below:</p>
-    <form>
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" required size="40"><Br></Br>
-    
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required size="40"><Br></Br>
-    
-          <label for="phone">Phone Number:</label>
-          <input type="text" id="phone" name="phone" required size="40"><Br></Br>
-    
-          <label for="message">Message:</label>
-          <input type="text" id="message" name="message" required size="40" height="100px"><Br></Br>
-    
-          <button type="submit">Submit</button>
-     </form>
-      </div>
-    
+                <input type="submit" value="Submit">
+         </form>
+         </main>
+        </section>
+
+
 </body>
 </html>

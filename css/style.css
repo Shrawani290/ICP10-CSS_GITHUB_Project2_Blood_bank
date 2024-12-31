@@ -1,3 +1,4 @@
+<<<<< main
 <<< main
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -88,25 +89,162 @@ li{
     background-color: #d63031;
     color: white;
     padding: 10px 20px;
+=======
+@media screen and (min-width:992px) and (max-width:1700px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d63031;
+        color: white;
+        padding: 10px 20px;
+        
+    }
     
+    .logo{
+        width: 30px;
+        
+    }
+    
+    .navitem a {
+        
+        margin: 0 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navitem a:hover{
+        color: #ffeaa7;
+    }
+
+    .navsubitem a {
+        font-size: larger;
+        margin: 0 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navsubitem a:hover{
+        color: #d63031;
+    }
+>>>>>> main
+    
+    
+    .subnavbar {
+        display: flex; 
+        justify-content: space-around;
+        background-color: whitesmoke;
+        color: white;
+        padding: 10px 20px;
+        
+    }
 }
 
-.logo{
+@media screen and (min-width:768px) and (max-width:992px){
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d63031;
+        color: white;
+        padding: 5px 10px;
+        
+    }
     
-    padding: 10px;
+    .logo{
+        width: 20px;
+    }
+    
+    .navitem a {
+        font-size: medium;
+        margin: 0 5px;
+        font-weight:100;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navitem a:hover{
+        color: #ffeaa7;
+    }
+
+    .navsubitem a {
+        font-size: medium;
+        margin: 0 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navsubitem a:hover{
+        color: #d63031;
+    }
+    
+    
+    .subnavbar {
+        display: flex; 
+        justify-content: space-around;
+        background-color: whitesmoke;
+        color: white;
+        padding: 10px 20px;
+        
+    }
 }
 
-.navitem a {
+@media screen and (max-width:768px){
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d63031;
+        color: white;
+        padding: 5px 10px;
+        
+    }
     
-    margin: 0 10px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: white;
-}
-
-.navitem a:hover{
-    color: #ffeaa7;
+    .logo{
+        width: 20px;
+    }
+    
+    .navitem a {
+        font-size: small;
+        margin: 0 5px;
+        font-weight:100;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navitem a:hover{
+        color: #ffeaa7;
+    }
+    .navsubitem a {
+        font-size: small;
+        margin: 0 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navsubitem a:hover{
+        color: #d63031;
+    }
+    
+    
+    .subnavbar {
+        display: flex; 
+        justify-content: space-around;
+        background-color: whitesmoke;
+        color: white;
+        padding: 10px 20px;
+        
+    }
 }
 
 .btn{
@@ -130,31 +268,6 @@ li{
 
 
 
-.navsubitem a {
-    
-    margin: 0 10px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.navsubitem a:hover{
-    color: #d63031;
-}
-
-
-.subnavbar {
-    display: flex; 
-    justify-content: space-around;
-    background-color: whitesmoke;
-    color: white;
-    padding: 10px 20px;
-    
-}
-
-
-
 .footer {
     background: #333;
     color: #fff;
@@ -162,10 +275,3 @@ li{
     padding: 1rem 0;
   }
 
-
-
-
-
-
-
->>>> main
