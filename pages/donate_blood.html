@@ -1,5 +1,4 @@
 <html>
-<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +6,50 @@
     <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
-    <a href="contact.htmlg" > <b>Donate blood</b></a>
-<form>
+    
+    <div class="navbar">
+        <b> Blood Bank And Blood Donation </b>
+        <a href="home.html" > <b>Home</b></a>
+        <a href="about.html" > <b>about</b></a>
+        <a href="donate_blood.html" > <b>Donate blood</b></a>
+        <a href="doubt.html" > <b>Doubt</b></a>
+        <a href="contact.html" > <b>Contact</b></a>
+        <a href="Register.html" > <b>logout</b></a>
+    </div>
+    <a href="img/blood_dimg.jpg" ></a>
+    <img  src="./../img/blood_dimg.jpg" style="height: 350px; width: 1550px;"> 
+    
     <h5>🩸Blood bank and blood donation </h5> 
-    <h3>Donar information</h3>
     <div class="container">
-        
         <h2>Donate Blood:</h2>
-        
-        
-    
-    
-    <p>Fill information</p>
-    
-            
-     
-         <span>
-        <label for="fileInput"><b>Add photo :</b> <img src="https://cdn-icons-png.freepik.com/256/12377/12377615.png?ga=GA1.1.1950660423.1730118496&semt=ais_hybrid" alt="add photo">
-         Add photo</label>
-        
+        <p>Fill information</p>
+
+    <form>
+        <span>
+        <label for="fileInput"><b>Add photo :</b> <img src="https://cdn-icons-png.freepik.com/256/12377/12377615.png?ga=GA1.1.1950660423.1730118496&semt=ais_hybrid" 
+            alt="add photo" style="max-width: 60px;
+            background-color:#fff2e6;
+            border-radius: 20px;"></label>
         <input type="file" id="fileInput" >
-    </span>
-        
-    
-    
-    
-        
-        
+        </span>
         <br>
         <br>
-        
-     
-       
-        
         <label for="firstName"><b>First name :  &nbsp;&nbsp;&nbsp;</b></label>
         <input type="text" id="firstName">
         &nbsp;&nbsp;&nbsp;
-    
-        
+
         <label for="lastName"><b>Last name :</b></label>
         <input type="text" id="lastName"   >
         <br><br>
         
-        <label for="phone"><b>Phone  NO   :</b> &nbsp;&nbsp;&nbsp;</b></label>
+        <label for="phone"><b>Phone  No   :</b> &nbsp;&nbsp;&nbsp; &nbsp;</b></label>
         <input type="tel" id="phone">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
         <label for="disease"><b>Disease :&nbsp; &nbsp; </b></label>
         <input type="text" id="disease"  value="Nothing">
         <br><br>
-        
-        
-        
-        
+
         <label for="blood-type"><b>Blood type : &nbsp;&nbsp;&nbsp;&nbsp;</b</label>
         <select id="blood-type" name="blood-type">
             <option value="A+">A+</option>
@@ -79,25 +69,29 @@
         </select>
     
         <br><br>
-    
-        <label for="unit ml"><b>Unit-ml : &nbsp;&nbsp;&nbsp;&nbsp; </b></label>
-        
-        <input type="number" id="unit-ml" >
+
+     <label for="unit ml"><b>Unit-ml : &nbsp;&nbsp;&nbsp;&nbsp; </b></label>
+       <input type="number" id="unit-ml" >
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        <label for="date"><b>Date :</label> 
         <input type="date"  id="date">
         <br>
         <br>
+        <input type="reset" id="reset">
+        
+        <br>
+        <br>
         <button class="btn"><b>DONATE</b></button>
+        
     </form>
 </div>
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
+<hr>
+<hr>
+<div style="text-align: center; background-color: red; padding: 20px; ">
+    
+        <a href="register.html">New register</a>
+        <a href="feedback.html">feedback</a>
+        <a href="blood_availability.html">blood_availability</a>
+        </div>
 </body>
 </html>
