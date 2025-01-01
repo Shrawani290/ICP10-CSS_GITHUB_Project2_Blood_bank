@@ -8,7 +8,7 @@ body{
 .navbar{
     background-color: #c62828;
     color: rgb(223, 211, 211);
-    padding:16px ;
+    padding:14px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,17 +119,25 @@ width: 440px;
 padding: 10px;
 font-family: 15px;
 }
-input[type=submit]{
-    background-color: #c62828;
+
+.btn{
+    background-color:#c62828;
     color: #fff;
+    width: 463px;
+    padding: 13px 20px;
     border: none;
-    width: 465px;
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 17px;
-    box-shadow: #e0e0e0;
 }
-.contact-form button:hover{
-    background-color:#c62828
+Button:hover{
+    background-color: darkgrey;
+}
+.btn1{
+    background-color: rgb(195, 189, 189);
+    border: darkgrey;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
 }
