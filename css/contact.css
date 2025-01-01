@@ -6,7 +6,7 @@ body{
     
 }
 .navbar{
-    background-color: #960018;
+    background-color: #c62828;
     color: rgb(223, 211, 211);
     padding:16px ;
     display: flex;
@@ -37,8 +37,8 @@ body{
  }
 
 header{
-    background-color:#960018;
-    color: #fff;
+    background-color:#c62828;
+    color: rgb(223, 211, 211);
     text-align: center;
     padding: 24px 0;
 }
@@ -67,7 +67,7 @@ main{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
  }
  .contact-info h2{
-    color: #880808;
+    color: #c62828;
  }
 .contact-info p{
     margin: 8px 0;
@@ -85,7 +85,7 @@ main{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 .contact-form h2{
-    color:#880808;
+    color:#c62828;
     margin: 16px;
     font-size: 25px;
 }
@@ -120,7 +120,7 @@ padding: 10px;
 font-family: 15px;
 }
 input[type=submit]{
-    background-color: #810b0b;
+    background-color: #c62828;
     color: #fff;
     border: none;
     width: 465px;
@@ -131,5 +131,5 @@ input[type=submit]{
     box-shadow: #e0e0e0;
 }
 .contact-form button:hover{
-    background-color:#810b0b
+    background-color:#c62828
 }
