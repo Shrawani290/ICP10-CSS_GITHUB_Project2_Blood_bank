@@ -1,3 +1,8 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .block1 h2{
     background-color: white;
     color: #d63031;
@@ -141,18 +146,18 @@
 
 @media screen and (min-width:600px) and (max-width:992px){
     .container_abt{
-        border: 2px solid rgb(0, 0, 0);
+        margin: 0px 20px;
+        
         border-radius: 15px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items:center;
-        font-size: large;
-        margin: 10px;
+        font-size: medium;
     }
 
     .item_abt1{
-        border-radius: 15px 0 0 15px;
-        height: 100%;
+        border-radius: 15px 15px 0 0;
+        width: 100%;
     }
 
     .item_abt2{
