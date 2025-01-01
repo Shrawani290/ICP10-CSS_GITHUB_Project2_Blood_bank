@@ -202,20 +202,20 @@
     text-align: center;
 }
     .item_pr1{
-        width: 400px;
+        width: 100%;
         background-color: #d63031;
         padding: 55px 15px;
         color: white;
     }
     .item_pr2{
-        width: 400px;
+        width: 100%;
         background-color: gray;
         padding: 15px;
         color: white;
     }
     .item_pr3{
         
-        width: 400px;
+        width: 100%;
         background-color: #d63031;
         padding: 15px;
         color: white;
