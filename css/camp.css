@@ -179,12 +179,12 @@
         padding-top: 20px;
     }
     
-    .d4-baground{
+    /* .d4-baground{
         margin-top: 60px;
         background-image: url(d3-camp\ bag.png);
         background-size: cover;
         height: 400px;
-    }
+    } */
     
     .d5-baground{
         height: 700px;
@@ -433,12 +433,12 @@
     padding-top: 20px;
 }
 
-.d4-baground{
+/* .d4-baground{
     margin-top: 60px;
     background-image: url(d3-camp\ bag.png);
     background-size: cover;
     height: 400px;
-}
+} */
 
 .d5-baground{
     height: 700px;
@@ -679,15 +679,15 @@
     padding-top: 20px;
 }
 
-.d4-baground{
+/* .d4-baground{
     margin-top: 60px;
     background-image: url(d3-camp\ bag.png);
     background-size: cover;
     height: 400px;
-}
+} */
 
 .d5-baground{
-    height: 700px;
+    height: 500px;
 }
 
 .d5-q1{
