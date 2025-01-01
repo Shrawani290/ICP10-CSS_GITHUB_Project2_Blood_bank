@@ -242,8 +242,16 @@
         
     }
     
-    
+    .A1{
+        
+        margin-left: 20px;
+        font-family: 'Courier New', Courier, monospace;
     }
+    .para{
+        margin-left: 20px;
+    }
+}
+
     
 
 
